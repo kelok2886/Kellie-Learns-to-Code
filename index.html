@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<head>
+  <title>Kellie Wagner</title>
+  <script language="javascript" type="text/javascript" src="/jquery-1.11.3.js"></script>
+<link href="http://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed|Playfair+Display:700" rel="stylesheet" type="text/css">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <div id="container">
+    <div id="left-column">
+      <img src="http://i.imgur.com/UuITpVV.jpg">
+    </div>
+    <div id="right-column">
+      <div id="intro">
+        <h1>Hello.</h1>
+        <h2>My name is Kellie.</h2>
+        <h3>
+          <script>
+          var montharray=new Array("Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec")
+
+          function countup(yr,m,d){
+          var today=new Date()
+          var todayy=today.getYear()
+          if (todayy < 1000)
+          todayy+=1900
+          var todaym=today.getMonth()
+          var todayd=today.getDate()
+          var todaystring=montharray[todaym]+" "+todayd+", "+todayy
+          var paststring=montharray[m-1]+" "+d+", "+yr
+          var difference=(Math.round((Date.parse(todaystring)-Date.parse(paststring))/(24*60*60*1000))*1)
+          difference+=" days"
+          document.write(""+difference+" days ago, I started to teach myself how to code.")
+          }
+          countup(2015,03,28)
+          </script>
+        </h3>
+        <p>Now I plan on spending the next several months with my nose buried in a computer screen so that one day I can build something awesome that will hopefully change the world, or at least the world for one person.</p>
+        <h2>Here's what I was doing before I fell in love with coding.</h2><br>
+      </div>
+      <div class="wrapper">
+        <div class= "tabbed-box">
+          <ul class= "tabs">
+            <li><a href="#tab1">Eat</a></li>
+            <li><a href="#tab2">Travel</a></li>
+            <li><a href="#tab3">Learn</a></li>
+            <li><a href="#tab4">Care</a></li>
+            <li><a href="#tab5">Love</a></li>
+          </ul>
+          <div class="tabbed-container">
+            <div id="tab1" class="tabbed-content">
+              <p>I don't think I could call myself a foodie because my palette is far from sophisticated, but I <em>love</em> food. These are the things I love to eat, in no particular order.</p><br>
+              <p>pasta, any and all</p>
+              <p>pizza</p>
+              <p>artichokes</p>
+              <p>pralines pecan ice cream</p>
+              <p><a href="http://www.tacobell.com/" target="_blank">Taco Bell (yes, even when I'm sober)</a></p>
+            </div>
+            <div id="tab2" class="tabbed-content">
+              <p>If I had the money, I'd travel all the time, but alas I'm broke and stuck in BK. Which isn't the worst, I guess. These are my favorite places I've been to, and I highly recommend you visit them too.</p><br>
+              <p><a href="https://scontent-iad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10981697_10100258179763018_8603275673334477720_n.jpg?oh=d7d84c23c6849aca1ad5ee67a1000895&oe=5609E74C" target="_blank">Puerto Viejo, Costa Rica</a></p>
+              <p><Pondicherry, India</p>
+              <p>London, England</p>
+              <p>Tangalle, Sri Lanka</p>
+              <p><a href="https://scontent-iad.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/34541_554360031428_5191235_n.jpg?oh=d7affc137234172d0e3fb9ac8438461e&oe=55D7D723" target="_blank">Coorg, India</a></p>
+            </div>
+            <div id="tab3" class="tabbed-content">
+              <p>There's so much I want to learn and do and there's nothing more exhilirating than learning a new skill or hobby. These are some things I've picked up recently.</p><br>
+              <p>Surfing</p>
+              <p><a href="https://scontent-iad.xx.fbcdn.net/hphotos-xft1/v/t1.0-9/1511183_960279954648_1866067692_n.jpg?oh=c48383ecf5969530ee4f8a42198bb8bd&oe=55C9B6C3" target="_blank">Lyra</a></p>
+              <p>Spanish</p>
+              <p>How to give myself a decent pedicure</p>
+              <p>Essay writing</p>
+            </div>
+            <div id="tab4" class="tabbed-content">
+              <p>I come from a pretty diverse,crazy background. Each one of these issues has affected me or someone I know in a super personal way. Always trying to spread the word or take action around them.</p><br>
+              <p>Foster care reform</p>
+              <p>Black women in tech</p>
+              <p>Global access to education for girls</p>
+              <p>Animal rescues</p>
+              <p><a href="http://www.equalitynow.org/?gclid=Cj0KEQjwstaqBRCT38DWpZjJotIBEiQAERS6_DFfovFlZGlNKw1C2FxyNe5VJF0TIII-jOMrWmu9ev0aAlh78P8HAQ" target="_blank">FGM</a></p>
+            </div>
+            <div id="tab5" class="tabbed-content">
+              <p>These are the things I love more than life itself. I will cut a b**** if someone messes with them.</p><br>
+              <p>My bed</p>
+              <p><a href="https://scontent-iad.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/1970419_10100219257229088_193556414410915183_n.jpg?oh=4fec7ae8de55cb54d2bc456695665905&oe=55CEB5EA" target="_blank">Emily and Angel, my two best friends</a></p>
+              <p>My Macbook</p>
+              <p>Any dessert that I've claimed as my own (seriously, don't touch)</p>
+              <p><a href="https://scontent-iad.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10445552_10100127969445538_8638819638718912212_n.jpg?oh=1c097396ed44f22e2d5ae6ea77c0fa98&oe=560C9C93" target="_blank">Dylan, my OG and partner in crime</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="contact">
+        <h2>Let's Talk</h2>
+        <p>I love meeting new people to learn, laugh, and eat with so feel free to reach out if you love coding and schnoodles as much as I do.</p>
+        <p>Email: kellie.wagner@gmail.com</p>
+        <input type="email" placeholder="your email">
+        <input type="submit">
+        <div id="social-media">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/kellie.wagner" target="_blank">
+                <img src="http://cdn.mysitemyway.com/icons-watermarks/flat-circle-white-on-dark-gray/social-media/social-media_facebook-square/social-media_facebook-square_flat-circle-white-on-dark-gray_512x512.png">
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com/kelok2886/" target="_blank">
+                <img src="http://cdn.mysitemyway.com/icons-watermarks/flat-circle-white-on-dark-gray/foundation/foundation_social-instagram/foundation_social-instagram_flat-circle-white-on-dark-gray_512x512.png">
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/kelliemwagner" target="_blank">
+                <img src="http://cdn.mysitemyway.com/icons-watermarks/flat-circle-white-on-dark-gray/social-media/social-media_twitter/social-media_twitter_flat-circle-white-on-dark-gray_512x512.png">
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/kelok2886" target="_blank">
+                <img src="http://cdn.mysitemyway.com/icons-watermarks/flat-circle-white-on-dark-gray/foundation/foundation_social-github/foundation_social-github_flat-circle-white-on-dark-gray_512x512.png">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+  $(".tabbed-content").hide(); 
+  $("ul.tabs li:first").addClass("active").show(); 
+  $(".tabbed-content:first").show(); 
+ 
+  $("ul.tabs li").click(function () {
+    $("ul.tabs li").removeClass("active"); 
+    $(this).addClass("active"); 
+    $(".tabbed-content").hide(); 
+    var activeTab = $(this).find("a").attr("href"); 
+    $(activeTab).fadeIn(); 
+    return false;
+  });
+</script>
+
+</body>

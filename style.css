@@ -1,0 +1,265 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #FEFDFC;
+  color: #11110F;
+}
+#container {
+  width: 100%;
+  margin: 0 auto;
+}
+#left-column {
+  width: 50%;
+  float: left;
+  position: fixed;
+}
+#left-column img {
+  height: auto;
+  width: 100%;
+}
+#right-column {
+  width: 50%;
+  float: right;
+  text-align: center;
+}
+
+#intro {
+  width: 65%;
+  margin: 0 auto;
+}
+#contact {
+  width: 65%;
+  margin: 0 auto;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 80px;
+    font-size: 80px;
+    }
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 40px;
+    font-size: 40px;
+    }
+h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 23px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    }
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+    }
+input {
+  border: 1px solid #11110f;
+  padding: 10px;
+  font-size: 15px;
+}
+input[type="submit"] {
+  font-family: 'Roboto', sans-serif;
+  background: turquoise;
+}
+#social-media {
+  margin-top: 30px;
+  margin-left: -10px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+#social-media img {
+  width: 40px;
+  height: 40px;
+  border: 0px;
+}
+#social-media li {
+  display: inline;
+  padding: 0px 5px 0px 5px;
+  list-style: none;
+}
+
+/*----- Tabbed Box -----*/
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+.tabbed-box {
+  width: 100%;
+}
+.tabbed-box .tabs {
+  display: inline-block;
+  padding-right: 40px;
+  font-family: 'Roboto Condensed', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 0 23px 0;
+}
+.tabbed-box .tabs li {
+  list-style: none;
+  float:left;
+}
+.tabbed-box .tabs li a {
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #FEFDFC;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #11110F;
+}
+.tabbed-box .tabs li a:hover {
+  background: #FEFDFC;
+  color: #11110f;
+  border-bottom: 5px solid turquoise;
+}
+.tabbed-content {
+  width: auto;
+  display: none;
+  text-align: center;
+}
+
+.tabbed-content p {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.tabbed-content li {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+    width: 50%;
+    margin: 0 auto;
+}
+.tabbed-content p a {
+  text-decoration: none;
+  color: turquoise;
+}
+
+
+/*----- Mobile and small browsers -----*/
+
+@media (max-width: 1000px) {
+      h1 {
+        font-size: 60px;
+        line-height: 60px;
+      }
+      h2 {
+        font-size: 30px;
+        line-height: 30px;
+      }
+      h3 {
+        font-size: 13px;
+        line-height: 13px;
+      }
+      p {
+        font-size: 9px;
+        line-height: 10px;
+      }
+      .tabbed-box .tabs {
+        display: inline-block;
+        padding-right: 30px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 13px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin: 0 0 11px 0;
+      }
+      .tabbed-content li {
+        font-size: 9px;
+        line-height: 10px;
+        width: 50%;
+        margin: 0 auto;
+      }
+     input {
+      border: 1px solid #11110f;
+      padding: 7px;
+      font-size: 9px;
+      }
+      #social-media {
+        margin-top: 20px;
+        margin-left: -10px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+      }
+      #social-media img {
+        width: 20px;
+        height: 20px;
+        border: 0px;
+      }
+      #social-media li {
+        display: inline;
+        padding: 0px 5px 0px 5px;
+        list-style: none;
+          }
+    }
+
+@media (max-width: 800px) {
+      h1 {
+        font-size: 40px;
+        line-height: 40px;
+      }
+      h2 {
+        font-size: 20px;
+        line-height: 20px;
+      }
+      h3 {
+        font-size: 11px;
+        line-height: 11px;
+      }
+      p {
+        font-size: 7px;
+        line-height: 8px;
+      }
+            .tabbed-box .tabs {
+        display: inline-block;
+        padding-right: 30px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 13px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin: 0 0 11px 0;
+      }
+      .tabbed-content li {
+        font-size: 9px;
+        line-height: 10px;
+        width: 50%;
+        margin: 0 auto;
+      }
+     input {
+      border: 1px solid #11110f;
+      padding: 7px;
+      font-size: 9px;
+      }
+      #social-media {
+        margin-top: 20px;
+        margin-left: -10px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+      }
+      #social-media img {
+        width: 20px;
+        height: 20px;
+        border: 0px;
+      }
+      #social-media li {
+        display: inline;
+        padding: 0px 5px 0px 5px;
+        list-style: none;
+          
+    }
+
+
